@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f8f3f3;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #0d8d0d;;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #fff;
+  }
+  
+  #hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    color: #888;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Services section styles */
+  #services {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+  }
+  
+  #services h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #services ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  #services li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #0d8d0d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  #Contact {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #fff;
+  }
+  #contact ul{
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  #contact li{
+    color: #ee1212;
+    margin-bottom: 40px;
+  }
